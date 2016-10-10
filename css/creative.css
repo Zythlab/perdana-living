@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
   border-color: #C21E1D;
@@ -392,12 +392,26 @@ body {
 }
 .box-description h4.product-title{
   color: #222;
+  margin-bottom: 0;
 }
 .box-description .product-price{
   margin-top: 0;
+  display: inline;
 }
-.badge.badge-danger{
-  background-color: #C21E1D;;
+.box-description .product-quote{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.box-description .product-size{
+  margin-top: 0;
+  display: inline;
+  color: #222;
+  font-weight: 600;
+  float: right !important;
+  text-transform: uppercase;
+}
+.badge.badge-danger, .header-breadcumb{
+  background-color: #C21E1D;
 }
 .top-footer{
   background-color: #353535;
@@ -420,4 +434,20 @@ section#search{
 section#search .box-search{
   max-width: 700px;
   margin: auto
+}
+.nav-break{
+  height: 50px;
+}
+.header-breadcumb{
+  padding: 30px 0;
+  color: #fff;
+}
+h3.title{
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.filter{
+}
+.pagination li a{
+  color: #C21E1D;
 }
