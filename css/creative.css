@@ -451,3 +451,22 @@ h3.title{
 .pagination li a{
   color: #C21E1D;
 }
+h4.nt-margin{
+  margin-top: 0;
+}
+td .product-total, td .product-total-price{
+  font-size: 18px;
+  font-weight: bold;
+}
+.text-right{
+  text-align: right
+}
+.chart-icon .fa-2{
+  font-size: 22px;
+}
+.box-checkout{
+  max-width: 480px;
+  border: solid 1px #ccc;
+  padding: 20px;
+  margin: auto;
+}
