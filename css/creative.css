@@ -451,7 +451,7 @@ h3.title{
 .pagination li a{
   color: #C21E1D;
 }
-h4.nt-margin{
+h4.nt-margin, h3.nt-margin{
   margin-top: 0;
 }
 td .product-total, td .product-total-price{
@@ -464,9 +464,17 @@ td .product-total, td .product-total-price{
 .chart-icon .fa-2{
   font-size: 22px;
 }
-.box-checkout{
-  max-width: 480px;
+.box-checkout, .box-login, .box-register{
   border: solid 1px #ccc;
   padding: 20px;
+  
+}
+.box-checkout{
   margin: auto;
+}
+.box-login .box-header{
+  border-bottom: solid 1px #ccc;
+}
+.box-login .box-body{
+  margin-top: 20px ;
 }
