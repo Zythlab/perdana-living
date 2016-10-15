@@ -471,6 +471,7 @@ td .product-total, td .product-total-price{
 }
 .box-checkout{
   margin: auto;
+  max-width: 480px;
 }
 .box-login .box-header{
   border-bottom: solid 1px #ccc;
