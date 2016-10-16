@@ -253,9 +253,9 @@ header .header-content .header-content-inner p {
   padding-left: 0;
 }
 .btn-default {
-  color: #222222;
-  background-color: white;
-  border-color: white;
+  color: #fff;
+  background-color: #C21E1D;;
+  border-color: #C21E1D;;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -478,4 +478,17 @@ td .product-total, td .product-total-price{
 }
 .box-login .box-body{
   margin-top: 20px ;
+}
+.table.borderless td, .table.borderless th {
+    border: none;
+}
+tfoot.border-top{
+  border-top: solid 1px #ccc;
+}
+label.chart-info{
+  margin:5px 0;
+  font-size: 18px;
+}
+.border-right{
+  border-right: solid 1px #ccc;
 }
