@@ -379,9 +379,14 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+.carousel-inner{
+  max-height: 600px;
+}
 .carousel-inner .carousel-img{
   width: auto;
-  max-height: 600px;
+  position:relative;
+    top:25%;
+    transform: translateY(-25%);
 }
 .navbar-brand img{
   max-height: 30px
