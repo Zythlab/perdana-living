@@ -472,7 +472,6 @@ td .product-total, td .product-total-price{
 .box-checkout, .box-login, .box-register{
   border: solid 1px #ccc;
   padding: 20px;
-  
 }
 .box-checkout{
   margin: auto;
@@ -496,4 +495,45 @@ label.chart-info{
 }
 .border-right{
   border-right: solid 1px #ccc;
+}
+.stat-icon{
+  font-size: 20px;
+  color: #b5b5b5;
+  margin-right: 5px;
+}
+.stat-icon.active{
+  color: #C21E1D;
+}
+ul.sidebar-ul{
+  list-style: none;
+  padding-left: 0;
+}
+.sidebar-box{
+  margin: 20px 0;
+}
+.sidebar-box h3.title{
+  color: #C21E1D;
+}
+.sidebar-box h3.title:before{
+  content: '';
+  position: absolute;
+  background: #C21E1D;
+  width: 50px;
+  height: 3px;
+  top: 55px;
+}
+.sidebar-box ul li a{
+  color: #3e3e3e;
+  text-decoration: none;
+  display: block;
+}
+.sidebar-box ul li a:hover{
+  color:#C21E1D;
+}
+.sidebar-box .sidebar-child{
+  padding: 11px 0;
+  border-top: solid 1px #ebebeb;
+}
+.btn.btn-danger{
+  background-color: #C21E1D;
 }
